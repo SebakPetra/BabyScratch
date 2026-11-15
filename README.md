@@ -1,4 +1,4 @@
-# BabyScratch
+# BabyDiary
 
 Reszponzív, magyar nyelvű babaoldal Reacttel és TypeScripttel. Jelenleg a baba hozzávetőleges méretét mutatja.
 

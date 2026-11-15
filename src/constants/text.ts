@@ -1,9 +1,9 @@
 export const TEXT = {
   app: {
     brandStart: 'Baby',
-    brandEnd: 'Scratch',
+    brandEnd: 'Diary',
     brandDot: '.',
-    brandLabel: 'BabyScratch',
+    brandLabel: 'BabyDiary',
     headerNote: 'EGY KIS CSODA, NAGY SZERETETTEL',
     footerFirst: 'EGY APRÓ CSODA, EGY NAGY KALAND',
     footerSecond: 'KÉSZÜLT SZERETETTEL',
