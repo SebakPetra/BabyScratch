@@ -1,22 +1,18 @@
 import { Component } from 'react';
 import { SYMBOLS, TEXT } from '../../constants/text';
 
-interface SiteHeaderProps {
-  onReset: () => void;
-}
-
-export class SiteHeader extends Component<SiteHeaderProps> {
+export class SiteHeader extends Component {
   render() {
     return (
       <header className="site-header">
-        <button className="brand" type="button" onClick={this.props.onReset} aria-label={TEXT.app.homeLabel}>
+        <span className="brand" aria-label={TEXT.app.brandLabel}>
           <span className="brand-icon star-icon" aria-hidden="true" />
           <span>
             {TEXT.app.brandStart}
             <span className="brand-accent">{TEXT.app.brandEnd}</span>
             <span className="brand-dot">{TEXT.app.brandDot}</span>
           </span>
-        </button>
+        </span>
         <div className="header-note">
           <span aria-hidden="true">{SYMBOLS.heart}</span> {TEXT.app.headerNote}
         </div>

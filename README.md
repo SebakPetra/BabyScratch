@@ -1,6 +1,6 @@
 # BabyScratch
 
-Reszponzív, magyar nyelvű kaparós gender reveal játék Reacttel és TypeScripttel.
+Reszponzív, magyar nyelvű babaoldal Reacttel és TypeScripttel. Jelenleg a baba hozzávetőleges méretét mutatja.
 
 ## Indítás
 
@@ -11,7 +11,7 @@ npm install
 npm run dev
 ```
 
-A megjelenő helyi címen nyitható meg az alkalmazás. A `npm run build` elkészíti az éles változatot a `dist` mappába, a `npm test` pedig futtatja a játékszabályok tesztjeit.
+A megjelenő helyi címen nyitható meg az alkalmazás. A `npm run build` elkészíti az éles változatot a `dist` mappába, a `npm test` pedig ellenőrzi az oldal megjelenő tartalmát.
 
 ## Közzététel GitHub Pagesen
 
@@ -21,12 +21,9 @@ Az útvonal a `vite.config.ts` fájlban a `BabyScratch` repositorynévre van be�
 
 ## Működés és szerkezet
 
-- `src/constants`: a megjelenített szövegek és díszítő karakterek.
-- `src/domain`: a tipp és az eredmény üzleti szabálya. A jelenlegi, kérés szerinti rögzített eredmény: kislányra tippelve nyer, kisfiúra tippelve veszít.
-- `src/presentation/pages`: a kezdő- és játékoldal. Az `App` a fejlécet, az aktuális oldalt és a láblécet állítja össze.
-- `src/presentation/components`: az újrafelhasználható osztálykomponensek, saját stílusaik és a kaparófelület működése. A `ScratchController` az interakciókat, a `ScratchCoverPainter` a fedőréteg rajzolását, a `scratchCoverage` pedig a felfedési küszöböt kezeli.
+- `src/constants`: a megjelenített szövegek és díszítő karakterek. A méret és a hasonlat jelenleg rögzített, itt módosítható; nem frissül automatikusan.
+- `src/presentation/pages`: az aktuális babaoldal. Az `App` a fejlécet, az oldalt és a láblécet állítja össze.
+- `src/presentation/components`: az újrafelhasználható osztálykomponensek.
 - `src/presentation/assets`: a felhasznált SVG-rajzok.
 
-A kaparás egérrel, érintéssel vagy tollal működik; a kaparás nélküli felfedés billentyűzettel is elérhető.
-
-A játék kizárólag a böngészőben fut; nincs szerveroldali titok vagy adattárolás.
+A korábbi kaparós játék a helyi `baby-scratch` branchben található. A branch nincs automatikusan feltöltve; a nyilvános repository és a korábbi közzétételek nem biztosítanak titoktartást.
