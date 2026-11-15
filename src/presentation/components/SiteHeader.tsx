@@ -10,7 +10,7 @@ export class SiteHeader extends Component<SiteHeaderProps> {
     return (
       <header className="site-header">
         <button className="brand" type="button" onClick={this.props.onReset} aria-label={TEXT.app.homeLabel}>
-          <span className="brand-icon" aria-hidden="true">{SYMBOLS.brand}</span>
+          <span className="brand-icon star-icon" aria-hidden="true" />
           <span>
             {TEXT.app.brandStart}
             <span className="brand-accent">{TEXT.app.brandEnd}</span>

@@ -26,7 +26,7 @@ export class GuessCard extends Component<GuessCardProps> {
 
     return (
       <button className={`choice-card choice-card--${guess}`} type="button" onClick={this.select}>
-        <span className="card-sparkle card-sparkle--one" aria-hidden="true">{SYMBOLS.brand}</span>
+        <span className="card-sparkle card-sparkle--one star-icon" aria-hidden="true" />
         <span className="card-sparkle card-sparkle--two" aria-hidden="true">{SYMBOLS.sparkle}</span>
         <img className="baby-illustration" src={image} alt="" />
         <span className="choice-kicker">{TEXT.home.choiceKicker}</span>

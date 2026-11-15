@@ -47,7 +47,6 @@ export const TEXT = {
 } as const;
 
 export const SYMBOLS = {
-  brand: '✳',
   sparkle: '✦',
   outlineSparkle: '✧',
   heart: '♡',

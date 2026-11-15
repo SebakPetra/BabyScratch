@@ -11,3 +11,13 @@
 body { margin: 0; min-width: 320px; }
 button { font: inherit; }
 button:focus-visible { outline: 3px solid #806878; outline-offset: 4px; }
+
+.star-icon {
+  display: inline-block;
+  flex: none;
+  width: 1em;
+  height: 1em;
+  background-color: currentColor;
+  -webkit-mask: url("./assets/star.svg") center / contain no-repeat;
+  mask: url("./assets/star.svg") center / contain no-repeat;
+}
