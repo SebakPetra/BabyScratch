@@ -5,8 +5,7 @@ export const TEXT = {
     brandDot: '.',
     brandLabel: 'BabyDiary',
     headerNote: 'EGY KIS CSODA, NAGY SZERETETTEL',
-    footerFirst: 'EGY APRÓ CSODA, EGY NAGY KALAND',
-    footerSecond: 'KÉSZÜLT SZERETETTEL',
+    footerFirst: 'EGY APRÓ CSODA, EGY NAGY KALAND'
   },
   babySize: {
     eyebrow: 'A MI KIS CSODÁNK',
