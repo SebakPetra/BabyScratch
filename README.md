@@ -13,6 +13,12 @@ npm run dev
 
 A megjelenő helyi címen nyitható meg az alkalmazás. A `npm run build` elkészíti az éles változatot a `dist` mappába, a `npm test` pedig futtatja a játékszabályok tesztjeit.
 
+## Közzététel GitHub Pagesen
+
+A repositoryban a **Settings → Pages → Build and deployment → Source** beállításnál válaszd a **GitHub Actions** lehetőséget. A `main` ágra feltöltött módosításokat a workflow automatikusan teszteli és közzéteszi a https://sebakpetra.github.io/BabyScratch/ címen. Ingyenes GitHub-fióknál a Pages használatához a repositorynak nyilvánosnak kell lennie.
+
+Az útvonal a `vite.config.ts` fájlban a `BabyScratch` repositorynévre van beállítva; átnevezés esetén módosítani kell.
+
 ## Működés és szerkezet
 
 - `src/constants`: a megjelenített szövegek és díszítő karakterek.
