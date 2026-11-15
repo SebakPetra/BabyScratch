@@ -1,0 +1,34 @@
+.game { max-width: 760px; padding: 55px 24px 42px; }
+.back-button {
+  display: block;
+  margin: 0 auto 34px;
+  border: 0;
+  background: transparent;
+  color: #9c898f;
+  font-size: 12px;
+  cursor: pointer;
+}
+.back-button span { margin-right: 6px; font-size: 16px; }
+.game h1 { font-size: clamp(40px, 5vw, 58px); margin-top: 18px; }
+.app--boy .game h1 em, .app--boy .eyebrow { color: #7fa8bd; }
+.game-card {
+  max-width: 560px;
+  margin: 32px auto 0;
+  padding: 25px 26px 20px;
+  border: 1px solid rgba(255,255,255,.9);
+  border-radius: 22px;
+  background: rgba(255,255,255,.65);
+  box-shadow: 0 20px 55px rgba(111, 84, 91, .08);
+}
+.game-card-heading { display: flex; align-items: center; justify-content: center; gap: 12px; margin-bottom: 18px; color: #b49b9e; font-size: 9px; font-weight: 700; letter-spacing: 1.7px; }
+.mini-heart { color: #d7a7b0; font-size: 17px; }
+.app--boy .mini-heart { color: #9fc2d1; }
+.scratch-hint { margin: 16px 0 0; color: #a7989b; font-size: 12px; }
+.scratch-hint span { color: #c9a0a8; margin: 0 4px; }
+.game-footer { margin: 25px 0 0; line-height: 1.6; }
+
+@media (max-width: 600px) {
+  .game { padding: 35px 20px; }
+  .back-button { margin-bottom: 30px; }
+  .game-card { padding: 20px 14px 18px; margin-top: 27px; }
+}
