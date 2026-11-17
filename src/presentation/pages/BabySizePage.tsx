@@ -23,7 +23,7 @@ export class BabySizePage extends Component {
           </div>
         </div>
         <p className="baby-size-footer">
-          <span aria-hidden="true">{SYMBOLS.heart}</span> {TEXT.babySize.footer}
+          <span aria-hidden="true">{SYMBOLS.heart}</span> {TEXT.babySize.footer} <span aria-hidden="true">{SYMBOLS.heart}</span>
         </p>
       </section>
     );

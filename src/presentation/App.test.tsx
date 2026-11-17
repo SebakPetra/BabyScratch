@@ -15,4 +15,12 @@ describe('the temporary baby size page', () => {
     expect(page).not.toContain('Szerinted ki érkezik?');
     expect(page).not.toContain('<canvas');
   });
+
+  it('surrounds the loving footer message with decorative hearts', () => {
+    const page = renderToStaticMarkup(<App />);
+
+    expect(page).toContain(
+      '<p class="baby-size-footer"><span aria-hidden="true">♡</span> Már most nagyon szeretünk! <span aria-hidden="true">♡</span></p>',
+    );
+  });
 });
