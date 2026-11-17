@@ -9,7 +9,7 @@ describe('the temporary baby size page', () => {
     expect(page).toContain('BabyDiary');
     expect(page).not.toContain('BabyScratch');
     expect(page).toContain('Egy túrórudi méretű');
-    expect(page).toContain('7 cm');
+    expect(page).toContain('<span>körülbelül</span><strong>8 cm</strong>');
     expect(page).toContain('turorudi.png');
     expect(page).toContain('alt="Pöttyös Túró Rudi natúr, pöttyös csomagolásban"');
     expect(page).not.toContain('Szerinted ki érkezik?');
