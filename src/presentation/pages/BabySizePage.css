@@ -24,18 +24,6 @@
 .size-card-label { color: #b49b9e; font-size: 10px; font-weight: 700; letter-spacing: 1.8px; }
 .size-illustration { display: block; width: min(100%, 200px); margin: 15px auto 4px; }
 .size-card h2 { margin: 0; color: #68565c; font: 400 30px Georgia, serif; }
-.size-badge {
-  display: inline-flex;
-  align-items: baseline;
-  gap: 8px;
-  margin-top: 16px;
-  padding: 9px 18px;
-  border-radius: 99px;
-  background: #edf4e5;
-  color: #708966;
-}
-.size-badge span { font-size: 11px; }
-.size-badge strong { font-size: 16px; }
 .baby-size-footer { margin: 25px 0 0; color: #ac9da0; font-size: 12px; }
 .baby-size-footer span { color: #d5a2ad; font-size: 18px; vertical-align: middle; }
 

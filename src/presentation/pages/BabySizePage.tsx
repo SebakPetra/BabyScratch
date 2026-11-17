@@ -17,10 +17,6 @@ export class BabySizePage extends Component {
           <span className="size-card-label">{TEXT.babySize.cardLabel}</span>
           <img className="size-illustration" src={turorudi} alt={TEXT.babySize.illustrationAlt} />
           <h2>{TEXT.babySize.comparison}</h2>
-          <div className="size-badge">
-            <span>{TEXT.babySize.sizeLabel}</span>
-            <strong>{TEXT.babySize.size}</strong>
-          </div>
         </div>
         <p className="baby-size-footer">
           <span aria-hidden="true">{SYMBOLS.heart}</span> {TEXT.babySize.footer} <span aria-hidden="true">{SYMBOLS.heart}</span>

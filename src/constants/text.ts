@@ -14,8 +14,6 @@ export const TEXT = {
     introduction: 'Kíváncsi vagy, mekkora most a babánk?',
     cardLabel: 'A BABÁNK MOST KÖRÜLBELÜL',
     comparison: 'Egy túrórudi méretű',
-    size: '8 cm',
-    sizeLabel: 'körülbelül',
     illustrationAlt: 'Pöttyös Túró Rudi natúr, pöttyös csomagolásban',
     footer: 'Már most nagyon szeretünk!',
   },
