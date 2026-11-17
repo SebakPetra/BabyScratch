@@ -13,10 +13,10 @@ export const TEXT = {
     titleAccent: 'óriási szeretet.',
     introduction: 'Kíváncsi vagy, mekkora most a babánk?',
     cardLabel: 'A BABÁNK MOST KÖRÜLBELÜL',
-    comparison: 'Egy lime méretű',
-    size: '5–6 cm',
+    comparison: 'Egy túrórudi méretű',
+    size: '7 cm',
     sizeLabel: 'körülbelül',
-    illustrationAlt: 'Egy mosolygós lime rajza',
+    illustrationAlt: 'Pöttyös Túró Rudi natúr, pöttyös csomagolásban',
     footer: 'Már most nagyon szeretünk!',
   },
   errors: {

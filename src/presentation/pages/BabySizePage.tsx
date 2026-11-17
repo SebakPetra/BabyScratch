@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import { SYMBOLS, TEXT } from '../../constants/text';
-import lime from '../assets/lime.svg';
+import turorudi from '../assets/turorudi.png';
 import { Eyebrow } from '../components/Eyebrow';
 import './BabySizePage.css';
 
@@ -15,7 +15,7 @@ export class BabySizePage extends Component {
         <p className="baby-size-intro">{TEXT.babySize.introduction}</p>
         <div className="size-card">
           <span className="size-card-label">{TEXT.babySize.cardLabel}</span>
-          <img className="lime-illustration" src={lime} alt={TEXT.babySize.illustrationAlt} />
+          <img className="size-illustration" src={turorudi} alt={TEXT.babySize.illustrationAlt} />
           <h2>{TEXT.babySize.comparison}</h2>
           <div className="size-badge">
             <span>{TEXT.babySize.sizeLabel}</span>
